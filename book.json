@@ -12,6 +12,11 @@
     },
     "github": {
       "url": "https://github.com/clarketm/TableExport/"
+    },
+    "theme-default": {
+      "styles": {
+        "website": "build/gitbook.css"
+      }
     }
   }
 }
