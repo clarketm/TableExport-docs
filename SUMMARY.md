@@ -1,5 +1,5 @@
 
-* [TableExport](README.md)
+* [README](README.md)
 
 ## Docs
 * [Migrating from **3.x** to **4.x**?](MIGRATING.md)
