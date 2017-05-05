@@ -1,3 +1,11 @@
-.custom-link {
+nav > ul.summary > li:not(.chapter):not(.header):not(.divider) {
+    display: none !important;
+}
+
+nav > ul.summary > li:not(.chapter) + li.divider {
+    display: none !important;
+}
+
+nav > ul.summary > li + li.divider:nth-last-child(2) {
     display: none !important;
 }
