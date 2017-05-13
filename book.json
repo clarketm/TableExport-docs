@@ -20,7 +20,8 @@
       }
     },
     "gtm": {
-      "token": "GTM-TL44T9"
+      "token": "GTM-TL44T9",
+       "virtualPageViews": true
     }
   }
 }
