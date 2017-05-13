@@ -4,7 +4,7 @@
     "edit-link",
     "github",
     "anchorjs",
-    "ga"
+    "gtm"
   ],
   "pluginsConfig": {
     "edit-link": {
@@ -19,8 +19,8 @@
         "website": "gitbook.css"
       }
     },
-    "ga": {
-      "token": "UA-69022876-1"
+    "gtm": {
+      "token": "GTM-TL44T9"
     }
   }
 }
