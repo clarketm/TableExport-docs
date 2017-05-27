@@ -311,6 +311,8 @@ When used alongside Bootstrap, there are four custom classes **`.xlsx`, `.xls`, 
 
 #### Miscellaneous
 * [`Arabic`](https://www.travismclarke.com/tableexport/examples/arabic-language.html)
+* [`emoji`](https://www.travismclarke.com/tableexport/examples/unicode-emoji.html)
+* [`cell types`](https://www.travismclarke.com/tableexport/examples/cell-data-types.html)
 
 #### Skeletons 
 A live, interactive demo can be found on the **[TableExport](https://www.travismclarke.com/tableexport/#live-demo)** webpage. 
