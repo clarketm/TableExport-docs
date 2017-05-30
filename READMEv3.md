@@ -1,14 +1,15 @@
 [![Build Status](https://travis-ci.org/clarketm/TableExport.svg?branch=3.x.x)](https://travis-ci.org/clarketm/TableExport)
 # [TableExport](https://tableexport.v3.travismclarke.com)
-The simple, easy-to-implement plugin to export HTML tables to xlsx, xls, csv, and txt files
-
-[TableExport](https://tableexport.v3.travismclarke.com/) demo **--** [TableExport + RequireJS](https://github.com/clarketm/tableexport_requirejs_app) skeleton **--** [TableExport + Flask](https://github.com/clarketm/tableexport_flask_app) skeleton **--** [TableExport + Webpack 1](https://github.com/clarketm/tableexport_webpack-v1_app) **--** [TableExport + Angular 4 + Webpack 2](https://github.com/clarketm/tableexport_angular4_webpack2_app).
+The simple, easy-to-implement plugin to export HTML tables to `xlsx`, `xls`, `csv`, and `txt` files.
 
 > **Notice:** As of May 2017, [v3.3](https://github.com/clarketm/TableExport/releases/tag/v3.3.13) has be superceded by [v4.0.10](https://github.com/clarketm/TableExport/releases/tag/v4.0.10).
 
 # Go to [`v4.0.10`](https://github.com/clarketm/TableExport/releases/tag/v4.0.10):
-#### Examples:
 
+### Live Demo 
+A live, interactive demo can be found on the **[TableExport](https://tableexport.v3.travismclarke.com/#live-demo)** webpage.
+
+#### Examples:
 #### Customizing Properties
 * [`headers`](https://tableexport.v3.travismclarke.com/examples/headers_footers.html)
 * [`footers`](https://tableexport.v3.travismclarke.com/examples/headers_footers.html)
@@ -30,7 +31,11 @@ The simple, easy-to-implement plugin to export HTML tables to xlsx, xls, csv, an
 * [`emoji`](https://tableexport.v3.travismclarke.com/examples/unicode-emoji.html)
 * [`cell data types`](https://tableexport.v3.travismclarke.com/examples/cell-data-types.html) (`string`, `number`, `boolean`, `date`)
 
-> **So why the major version bump you ask?** Well, the rationale for a major version bump is that due to a change in `TableExport`'s dependencies, in [v4.0.10](https://github.com/clarketm/TableExport/releases/tag/v4.0.10) forth, JQuery will no longer be a **required** dependency, instead it will be purely **optional**. So existing implementations *with* jQuery will continue to work unimpeded, now with the added benefit that new projets no longer need to rely on the overhead of such large library, unless of course you prefer jQuery or it is already part of your project.
+#### Skeletons 
+* [TableExport + RequireJS](https://github.com/clarketm/tableexport_requirejs_app) skeleton.
+* [TableExport + Flask](https://github.com/clarketm/tableexport_flask_app) skeleton.
+* [TableExport + Webpack 1](https://github.com/clarketm/tableexport_webpack-v1_app) skeleton.
+* [TableExport + Angular 4 + Webpack 2](https://github.com/clarketm/tableexport_angular4_webpack2_app) skeleton.
 
 ## Getting Started
 
