@@ -6,35 +6,6 @@ The simple, easy-to-implement library to export HTML tables to `xlsx`, `xls`, `c
 * [`v3` docs](https://tableexport.v3.travismclarke.com/) and [README](https://github.com/clarketm/TableExport/tree/3.x.x#getting-started): 
 * [`v4` docs](https://tableexport.v4.travismclarke.com) and [README](#getting-started) (below): 
 
-### Examples
-
-#### Customizing Properties
-* [`headers`](https://tableexport.v3.travismclarke.com/examples/headers_footers.html)
-* [`footers`](https://tableexport.v3.travismclarke.com/examples/headers_footers.html)
-* [`formats`](https://tableexport.v3.travismclarke.com/examples/formats-xlsx-xls-csv-txt.html)
-* [`filename`](https://tableexport.v3.travismclarke.com/examples/filename.html)
-* [`bootstrap`](https://tableexport.v3.travismclarke.com/examples/bootstrap.html)
-* [`exportButtons`](https://tableexport.v3.travismclarke.com/examples/exportButtons.html)
-* [`position`](https://tableexport.v3.travismclarke.com/examples/position.html)
-* [`ignoreRows`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
-* [`ignoreCols`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
-* [`trimWhitespace`](https://tableexport.v3.travismclarke.com/examples/whitespace.html)
-
-#### Customizing Settings
-* [`ignoreCSS`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
-* [`emptyCSS`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
-
-#### Miscellaneous
-* [`Arabic`](https://tableexport.v3.travismclarke.com/examples/arabic-language.html)
-* [`emoji`](https://tableexport.v3.travismclarke.com/examples/unicode-emoji.html)
-* [`cell data types`](https://tableexport.v3.travismclarke.com/examples/cell-data-types.html) (`string`, `number`, `boolean`, `date`)
-
-#### Skeletons 
-* [TableExport + RequireJS](https://github.com/clarketm/tableexport_requirejs_app) skeleton.
-* [TableExport + Flask](https://github.com/clarketm/tableexport_flask_app) skeleton.
-* [TableExport + Webpack 1](https://github.com/clarketm/tableexport_webpack-v1_app) skeleton.
-* [TableExport + Angular 4 + Webpack 2](https://github.com/clarketm/tableexport_angular4_webpack2_app) skeleton.
-
 ## Getting Started
 
 ### Install manually using `<script>` tags
@@ -317,6 +288,35 @@ When used alongside Bootstrap, there are four custom classes **`.xlsx`, `.xls`, 
 | **Windows** |    &#10003;   |    &#10003;    | &#10003; |   &#10003;   |   &#10003;    |
 
 > A full list of [browser support](https://github.com/clarketm/FileSaver.js#supported-browsers) can be found in the [FileSaver.js](https://github.com/clarketm/FileSaver.js) README. Some [legacy browsers](https://github.com/clarketm/FileSaver.js#supported-browsers) may require an additional third-party dependency: [Blob.js](https://github.com/clarketm/Blob.js/)
+
+### Examples
+
+#### Customizing Properties
+* [`headers`](https://tableexport.v3.travismclarke.com/examples/headers_footers.html)
+* [`footers`](https://tableexport.v3.travismclarke.com/examples/headers_footers.html)
+* [`formats`](https://tableexport.v3.travismclarke.com/examples/formats-xlsx-xls-csv-txt.html)
+* [`filename`](https://tableexport.v3.travismclarke.com/examples/filename.html)
+* [`bootstrap`](https://tableexport.v3.travismclarke.com/examples/bootstrap.html)
+* [`exportButtons`](https://tableexport.v3.travismclarke.com/examples/exportButtons.html)
+* [`position`](https://tableexport.v3.travismclarke.com/examples/position.html)
+* [`ignoreRows`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
+* [`ignoreCols`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
+* [`trimWhitespace`](https://tableexport.v3.travismclarke.com/examples/whitespace.html)
+
+#### Customizing Settings
+* [`ignoreCSS`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
+* [`emptyCSS`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
+
+#### Miscellaneous
+* [`Arabic`](https://tableexport.v3.travismclarke.com/examples/arabic-language.html)
+* [`emoji`](https://tableexport.v3.travismclarke.com/examples/unicode-emoji.html)
+* [`cell data types`](https://tableexport.v3.travismclarke.com/examples/cell-data-types.html) (`string`, `number`, `boolean`, `date`)
+
+#### Skeletons 
+* [TableExport + RequireJS](https://github.com/clarketm/tableexport_requirejs_app) skeleton.
+* [TableExport + Flask](https://github.com/clarketm/tableexport_flask_app) skeleton.
+* [TableExport + Webpack 1](https://github.com/clarketm/tableexport_webpack-v1_app) skeleton.
+* [TableExport + Angular 4 + Webpack 2](https://github.com/clarketm/tableexport_angular4_webpack2_app) skeleton.
 
 ### License
 [TableExport](https://tableexport.v4.travismclarke.com) is licensed under the terms of the [Apache-2.0](http://www.apache.org/licenses/LICENSE-2.0.html) License

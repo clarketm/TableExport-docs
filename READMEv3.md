@@ -9,34 +9,6 @@ The simple, easy-to-implement plugin to export HTML tables to `xlsx`, `xls`, `cs
 ### Live Demo 
 A live, interactive demo can be found on the **[TableExport](https://tableexport.v3.travismclarke.com/#live-demo)** webpage.
 
-#### Examples:
-#### Customizing Properties
-* [`headers`](https://tableexport.v3.travismclarke.com/examples/headers_footers.html)
-* [`footers`](https://tableexport.v3.travismclarke.com/examples/headers_footers.html)
-* [`formats`](https://tableexport.v3.travismclarke.com/examples/formats-xlsx-xls-csv-txt.html)
-* [`filename`](https://tableexport.v3.travismclarke.com/examples/filename.html)
-* [`bootstrap`](https://tableexport.v3.travismclarke.com/examples/bootstrap.html)
-* [`exportButtons`](https://tableexport.v3.travismclarke.com/examples/exportButtons.html)
-* [`position`](https://tableexport.v3.travismclarke.com/examples/position.html)
-* [`ignoreRows`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
-* [`ignoreCols`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
-* [`trimWhitespace`](https://tableexport.v3.travismclarke.com/examples/whitespace.html)
-
-#### Customizing Settings
-* [`ignoreCSS`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
-* [`emptyCSS`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
-
-#### Miscellaneous
-* [`Arabic`](https://tableexport.v3.travismclarke.com/examples/arabic-language.html)
-* [`emoji`](https://tableexport.v3.travismclarke.com/examples/unicode-emoji.html)
-* [`cell data types`](https://tableexport.v3.travismclarke.com/examples/cell-data-types.html) (`string`, `number`, `boolean`, `date`)
-
-#### Skeletons 
-* [TableExport + RequireJS](https://github.com/clarketm/tableexport_requirejs_app) skeleton.
-* [TableExport + Flask](https://github.com/clarketm/tableexport_flask_app) skeleton.
-* [TableExport + Webpack 1](https://github.com/clarketm/tableexport_webpack-v1_app) skeleton.
-* [TableExport + Angular 4 + Webpack 2](https://github.com/clarketm/tableexport_angular4_webpack2_app) skeleton.
-
 ## Getting Started
 
 ### Download and Setup
@@ -267,6 +239,30 @@ $.fn.tableExport.rowDel = "\r\n";
 
 ### Live Demo 
 A live, interactive demo can be found on the **[TableExport](https://tableexport.v3.travismclarke.com/#live-demo)** webpage. 
+
+#### Examples:
+#### Customizing Properties
+* [`headers`](https://tableexport.v3.travismclarke.com/examples/headers_footers.html)
+* [`footers`](https://tableexport.v3.travismclarke.com/examples/headers_footers.html)
+* [`formats`](https://tableexport.v3.travismclarke.com/examples/formats-xlsx-xls-csv-txt.html)
+* [`filename`](https://tableexport.v3.travismclarke.com/examples/filename.html)
+* [`bootstrap`](https://tableexport.v3.travismclarke.com/examples/bootstrap.html)
+* [`exportButtons`](https://tableexport.v3.travismclarke.com/examples/exportButtons.html)
+* [`position`](https://tableexport.v3.travismclarke.com/examples/position.html)
+* [`ignoreRows`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
+* [`ignoreCols`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
+* [`trimWhitespace`](https://tableexport.v3.travismclarke.com/examples/whitespace.html)
+
+#### Customizing Settings
+* [`ignoreCSS`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
+* [`emptyCSS`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
+
+#### Miscellaneous
+* [`Arabic`](https://tableexport.v3.travismclarke.com/examples/arabic-language.html)
+* [`emoji`](https://tableexport.v3.travismclarke.com/examples/unicode-emoji.html)
+* [`cell data types`](https://tableexport.v3.travismclarke.com/examples/cell-data-types.html) (`string`, `number`, `boolean`, `date`)
+
+#### Skeletons 
 * [TableExport + RequireJS](https://github.com/clarketm/tableexport_requirejs_app) skeleton.
 * [TableExport + Flask](https://github.com/clarketm/tableexport_flask_app) skeleton.
 * [TableExport + Webpack 1](https://github.com/clarketm/tableexport_webpack-v1_app) skeleton.
