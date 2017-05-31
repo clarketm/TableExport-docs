@@ -4,7 +4,7 @@
 ## Docs
 * [Migrating from **3.x** to **4.x**?](MIGRATING.md)
 * [`v3` docs](READMEv3.md) 
-* [`v4` docs](READMEv4.md)
+* [`v4` docs](README.md)
 
 ## Getting Started
 * [Install manually using script tags](README.md#install-manually-using-script-tags)
