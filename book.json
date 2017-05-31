@@ -1,9 +1,9 @@
 {
   "title": "TableExport",
   "plugins": [
+    "-search",
     "edit-link",
     "github",
-    "-search",
     "anchorjs",
     "gtm"
   ],
