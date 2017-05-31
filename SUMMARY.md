@@ -1,10 +1,10 @@
 
-* [TableExport](README.md)
+* [TableExport](README.md#tableexport)
 
 ## Docs
 * [Migrating from **3.x** to **4.x**?](MIGRATING.md)
 * [`v3` docs](READMEv3.md) 
-* [`v4` docs](README.md)
+* [`v4` docs](README.md#docs)
 
 ## Getting Started
 * [Install manually using script tags](README.md#install-manually-using-script-tags)
@@ -23,7 +23,7 @@
     * [Properties](README.md#properties)
     * [Methods](README.md#methods)
     * [Settings](README.md#settings)
-* [CSS](README.md)
+* [CSS](README.md#css)
 * [Browser Support](README.md#browser-support)
 
 ## Examples
