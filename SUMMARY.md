@@ -28,7 +28,7 @@
 
 ## Examples
 * [Customizing Properties](README.md#customizing-properties)
-* [Customizing Properties](README.md#customizing-settings)
+* [Customizing Settings](README.md#customizing-settings)
 * [Miscellaneous](README.md#miscellaneous)
 * [Skeletons](README.md#skeletons)
 
