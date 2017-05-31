@@ -1,3 +1,7 @@
+---
+search: false
+---
+
 # [TableExport](https://tableexport.v4.travismclarke.com) &nbsp; [![Build Status](https://travis-ci.org/clarketm/TableExport.svg?branch=master)](https://travis-ci.org/clarketm/TableExport)
 The simple, easy-to-implement library to export HTML tables to `xlsx`, `xls`, `csv`, and `txt` files.
 

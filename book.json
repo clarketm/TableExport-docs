@@ -1,9 +1,6 @@
 {
   "title": "TableExport",
   "plugins": [
-    "-lunr",
-    "-search",
-    "search-plus",
     "edit-link",
     "github",
     "anchorjs",
@@ -21,7 +18,7 @@
       "styles": {
         "website": "gitbook.css"
       }
-    }, 
+    },
     "gtm": {
       "token": "GTM-TL44T9",
        "virtualPageViews": true
