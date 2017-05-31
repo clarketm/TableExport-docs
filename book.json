@@ -2,6 +2,7 @@
   "title": "TableExport",
   "plugins": [
     "-search",
+    "-lunr",
     "edit-link",
     "github",
     "anchorjs",
