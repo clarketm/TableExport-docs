@@ -9,7 +9,7 @@
   ],
   "pluginsConfig": {
     "edit-link": {
-      "base": "https://github.com/clarketm/TableExport/tree/master",
+      "base": "https://github.com/clarketm/TableExport/tree/master/docs",
       "label": "Edit This Page"
     },
     "github": {
