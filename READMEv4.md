@@ -3,15 +3,20 @@
 The simple, easy-to-implement library to export HTML tables to `xlsx`, `xls`, `csv`, and `txt` files.
 
 [![GitHub release](https://img.shields.io/github/release/clarketm/tableexport.svg)]()
-[![GitHub (pre-)release](https://img.shields.io/github/release/clarketm/tableexport/all.svg)]()
 [![Build Status](https://travis-ci.org/clarketm/TableExport.svg?branch=master)](https://travis-ci.org/clarketm/TableExport)
 [![Downloads](https://img.shields.io/npm/dt/tableexport.svg)]()
 [![License](https://img.shields.io/npm/l/tableexport.svg)]()
 
+---
+# Deprecation notice:
+### Below are the docs for [`v4.0.11`](READMEv4.md).
+### Check out to [`v5.0.0`](README.md) for the latest release.
+---
+
 ## Docs
 * [Migrating from **3.x** to **4.x**?](MIGRATING_v3_to_v4.md)
-* [`v3` docs](https://tableexport.v3.travismclarke.com/) and [README](https://github.com/clarketm/TableExport/tree/3.x.x#getting-started): 
-* [`v4` docs](https://tableexport.v4.travismclarke.com) and [README](#getting-started) (below): 
+* [`v3` docs](https://tableexport.v3.travismclarke.com/) and [README](https://github.com/clarketm/TableExport/tree/3.x.x#getting-started):
+* [`v4` docs](https://tableexport.v4.travismclarke.com/READMEv4.html) and [README](https://github.com/clarketm/TableExport/tree/4.x.x#getting-started):
 
 ## Getting Started
 
