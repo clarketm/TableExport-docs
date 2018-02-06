@@ -3,7 +3,6 @@
 The simple, easy-to-implement library to export HTML tables to `xlsx`, `xls`, `csv`, and `txt` files.
 
 [![GitHub release](https://img.shields.io/github/release/clarketm/tableexport.svg)]()
-[![GitHub (pre-)release](https://img.shields.io/github/release/clarketm/tableexport/all.svg)]()
 [![Build Status](https://travis-ci.org/clarketm/TableExport.svg?branch=master)](https://travis-ci.org/clarketm/TableExport)
 [![Downloads](https://img.shields.io/npm/dt/tableexport.svg)]()
 [![License](https://img.shields.io/npm/l/tableexport.svg)]()
