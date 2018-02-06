@@ -10,7 +10,7 @@ The simple, easy-to-implement library to export HTML tables to `xlsx`, `xls`, `c
 ---
 # Deprecation notice:
 ### Below are the docs for [`v4.0.11`](READMEv4.md).
-### Check out to [`v5.0.0`](README.md) for the latest release.
+### Check out [`v5.0.0`](README.md) for the latest release.
 ---
 
 ## Docs
