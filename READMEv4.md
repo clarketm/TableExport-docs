@@ -320,8 +320,6 @@ When used alongside Bootstrap, there are four custom classes **`.xlsx`, `.xls`, 
 * [`emptyCSS`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
 
 #### Miscellaneous
-* [`rowspan`](https://tableexport.v3.travismclarke.com/examples/rowspan-colspan.html)
-* [`colspan`](https://tableexport.v3.travismclarke.com/examples/rowspan-colspan.html)
 * [`cell data types`](https://tableexport.v3.travismclarke.com/examples/cell-data-types.html) (`string`, `number`, `boolean`, `date`)
 * [`emoji`](https://tableexport.v3.travismclarke.com/examples/unicode-emoji.html)
 * [`Arabic`](https://tableexport.v3.travismclarke.com/examples/arabic-language.html)
@@ -344,7 +342,7 @@ When used alongside Bootstrap, there are four custom classes **`.xlsx`, `.xls`, 
 - [x] Force jQuery to be an optionally loaded module.
 - [x] Use the enhanced [SheetJS](https://github.com/SheetJS/js-xlsx#supported-output-formats) `xls`, `csv`, and `txt` formats (exposed via `enforceStrictRFC4180` prototype property).
 - [x] Allow `ignoreCSS` and `emptyCSS` to work with any `selector|selector[]` instead of solely a single CSS class.
-- [ ] Ensure (via testing) full consistency and backwards-compatibility for jQuery.
+- [x] Ensure (via testing) full consistency and backwards-compatibility for jQuery.
 - [ ] Add **Export as PDF** support.
 
 ### Credits
