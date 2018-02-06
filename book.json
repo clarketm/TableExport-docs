@@ -30,9 +30,13 @@
       "gitbookConfigURL": "https://github.com/clarketm/TableExport-docs/blob/master/book.json",
       "options": [
         {
-          "value": "https://tableexport.v4.travismclarke.com/v/v5.0.0/",
-          "text": "v5.0.0",
+          "value": "https://tableexport.v4.travismclarke.com/",
+          "text": "master",
           "selected": true
+        },
+        {
+          "value": "https://tableexport.v4.travismclarke.com/v/v5.0.0/",
+          "text": "v5.0.0"
         },
         {
           "value": "https://tableexport.v4.travismclarke.com/v/v4.0.11/",
