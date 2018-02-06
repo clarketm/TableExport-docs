@@ -27,7 +27,14 @@
       "virtualPageViews": true
     },
     "versions": {
-      "type": "branches"
+      "gitbookConfigURL": "https://github.com/clarketm/TableExport-docs/blob/master/book.json",
+      "options": [
+        {
+          "value": "https://tableexport.v4.travismclarke.com/v/v4.0.11",
+          "text": "v4.0.11",
+          "selected": true
+        }
+      ]
     }
   }
 }
