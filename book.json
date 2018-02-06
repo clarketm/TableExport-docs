@@ -6,8 +6,7 @@
     "edit-link",
     "github",
     "anchorjs",
-    "gtm",
-    "versions"
+    "gtm"
   ],
   "pluginsConfig": {
     "edit-link": {
@@ -25,9 +24,6 @@
     "gtm": {
       "token": "GTM-TL44T9",
       "virtualPageViews": true
-    },
-    "versions": {
-      "type": "branches"
     }
   }
 }
