@@ -24,10 +24,16 @@
     },
     "gtm": {
       "token": "GTM-TL44T9",
-       "virtualPageViews": true
+      "virtualPageViews": true
     },
     "versions": {
-      "type": "tags"
+      "options": [
+        {
+          "value": "https://tableexport.v4.travismclarke.com/v/v4.0.11",
+          "text": "v4.0.11",
+          "selected": true
+        }
+      ]
     }
   }
 }

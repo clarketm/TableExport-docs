@@ -1,4 +1,4 @@
-nav > ul.summary > li:not(.chapter):not(.header):not(.divider) {
+nav > ul.summary > li:not(.chapter):not(.header):not(.divider):not(.versions-select) {
     display: none !important;
 }
 
