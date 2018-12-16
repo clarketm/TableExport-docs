@@ -37,7 +37,6 @@ $ npm install tableexport
 ```
 
 ### CDN
-#### [unpkg](https://unpkg.com/#/)
 |          | uncompressed | compressed |
 | :------: | :----------: | :--------: |
 |  __CSS__ |   [🔗](https://unpkg.com/tableexport/dist/css/tableexport.css)     |  [🔗](https://unpkg.com/tableexport/dist/css/tableexport.min.css)      |
