@@ -1,5 +1,7 @@
  <!--[![TableExport](/Hero.png)](https://tableexport.travismclarke.com)-->
+
 # [TableExport](https://tableexport.travismclarke.com)
+
 The simple, easy-to-implement library to export HTML tables to `xlsx`, `xls`, `csv`, and `txt` files.
 
 [![GitHub release](https://img.shields.io/github/release/clarketm/tableexport.svg)]()
@@ -8,24 +10,30 @@ The simple, easy-to-implement library to export HTML tables to `xlsx`, `xls`, `c
 [![License](https://img.shields.io/npm/l/tableexport.svg)]()
 
 ---
+
 # Deprecation notice:
+
 ### Below are the docs for [`v4.0.11`](READMEv4.md).
+
 ### Check out [`v5`](README.md) for the latest release.
+
 ---
 
 ## Docs
-* [Migrating from **3.x** to **4.x**?](MIGRATING_v3_to_v4.md)
-* [`v3` docs](https://tableexport.v3.travismclarke.com/) and [README](https://github.com/clarketm/TableExport/tree/3.x.x#getting-started):
-* [`v4` docs](https://tableexport.travismclarke.com/READMEv4.html) and [README](https://github.com/clarketm/TableExport/tree/4.x.x#getting-started):
+
+- [Migrating from **3.x** to **4.x**?](MIGRATING_v3_to_v4.md)
+- [`v3` docs](https://tableexport.v3.travismclarke.com/) and [README](https://github.com/clarketm/TableExport/tree/3.x.x#getting-started):
+- [`v4` docs](https://tableexport.travismclarke.com/READMEv4.html) and [README](https://github.com/clarketm/TableExport/tree/4.x.x#getting-started):
 
 ## Getting Started
 
 ### Install manually using `<script>` tags
+
 To use this library, include the [FileSaver.js](https://github.com/clarketm/FileSaver.js/) library, and [TableExport](https://tableexport.travismclarke.com) library before the closing `<body>` tag of your HTML document:
 
 ```html
 <script src="FileSaver.js"></script>
- ...
+...
 <script src="tableexport.js"></script>
 ```
 
@@ -36,63 +44,67 @@ $ bower install tableexport.js
 ```
 
 ### Install with npm
+
 ```shell
 $ npm install tableexport
 ```
 
 ### CDN
-#### [CDNjs](https://cdnjs.com/libraries/TableExport)
-|          | uncompressed | compressed |
-| :------: | :----------: | :--------: |
-|  __CSS__ |   [🔗](https://cdnjs.cloudflare.com/ajax/libs/TableExport/4.0.11/css/tableexport.css)     |  [🔗](https://cdnjs.cloudflare.com/ajax/libs/TableExport/4.0.11/css/tableexport.min.css)      |
-|  __JS__  |   [🔗](https://cdnjs.cloudflare.com/ajax/libs/TableExport/4.0.11/js/tableexport.js)     |  [🔗](https://cdnjs.cloudflare.com/ajax/libs/TableExport/4.0.11/js/tableexport.min.js)      |
-|  __Images__  | &mdash; |   [🔗<sup>xlsx</sup>](https://cdnjs.cloudflare.com/ajax/libs/TableExport/4.0.11/img/xlsx.svg)[🔗<sup>xls</sup>](https://cdnjs.cloudflare.com/ajax/libs/TableExport/4.0.11/img/xls.svg)[🔗<sup>csv</sup>](https://cdnjs.cloudflare.com/ajax/libs/TableExport/4.0.11/img/csv.svg)[🔗<sup>txt</sup>](https://cdnjs.cloudflare.com/ajax/libs/TableExport/4.0.11/img/txt.svg)  |
 
+#### [CDNjs](https://cdnjs.com/libraries/TableExport)
+
+|            |                                    uncompressed                                     |                                                                                                                                                                               compressed                                                                                                                                                                               |
+| :--------: | :---------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|  **CSS**   | [🔗](https://cdnjs.cloudflare.com/ajax/libs/TableExport/4.0.11/css/tableexport.css) |                                                                                                                                        [🔗](https://cdnjs.cloudflare.com/ajax/libs/TableExport/4.0.11/css/tableexport.min.css)                                                                                                                                         |
+|   **JS**   |  [🔗](https://cdnjs.cloudflare.com/ajax/libs/TableExport/4.0.11/js/tableexport.js)  |                                                                                                                                         [🔗](https://cdnjs.cloudflare.com/ajax/libs/TableExport/4.0.11/js/tableexport.min.js)                                                                                                                                          |
+| **Images** |                                       &mdash;                                       | [🔗<sup>xlsx</sup>](https://cdnjs.cloudflare.com/ajax/libs/TableExport/4.0.11/img/xlsx.svg)[🔗<sup>xls</sup>](https://cdnjs.cloudflare.com/ajax/libs/TableExport/4.0.11/img/xls.svg)[🔗<sup>csv</sup>](https://cdnjs.cloudflare.com/ajax/libs/TableExport/4.0.11/img/csv.svg)[🔗<sup>txt</sup>](https://cdnjs.cloudflare.com/ajax/libs/TableExport/4.0.11/img/txt.svg) |
 
 #### [unpkg](https://unpkg.com/#/)
-|          | uncompressed | compressed |
-| :------: | :----------: | :--------: |
-|  __CSS__ |   [🔗](https://unpkg.com/tableexport/dist/css/tableexport.css)     |  [🔗](https://unpkg.com/tableexport/dist/css/tableexport.min.css)      |
-|  __JS__  |   [🔗](https://unpkg.com/tableexport/dist/js/tableexport.js)     |  [🔗](https://unpkg.com/tableexport/dist/js/tableexport.min.js)      |
-|  __Images__  | &mdash; |   [🔗<sup>xlsx</sup>](https://unpkg.com/tableexport/dist/img/xlsx.svg)[🔗<sup>xls</sup>](https://unpkg.com/tableexport/dist/img/xls.svg)[🔗<sup>csv</sup>](https://unpkg.com/tableexport/dist/img/csv.svg)[🔗<sup>txt</sup>](https://unpkg.com/tableexport/dist/img/txt.svg)  |
 
+|            |                         uncompressed                         |                                                                                                                                 compressed                                                                                                                                 |
+| :--------: | :----------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|  **CSS**   | [🔗](https://unpkg.com/tableexport/dist/css/tableexport.css) |                                                                                                      [🔗](https://unpkg.com/tableexport/dist/css/tableexport.min.css)                                                                                                      |
+|   **JS**   |  [🔗](https://unpkg.com/tableexport/dist/js/tableexport.js)  |                                                                                                       [🔗](https://unpkg.com/tableexport/dist/js/tableexport.min.js)                                                                                                       |
+| **Images** |                           &mdash;                            | [🔗<sup>xlsx</sup>](https://unpkg.com/tableexport/dist/img/xlsx.svg)[🔗<sup>xls</sup>](https://unpkg.com/tableexport/dist/img/xls.svg)[🔗<sup>csv</sup>](https://unpkg.com/tableexport/dist/img/csv.svg)[🔗<sup>txt</sup>](https://unpkg.com/tableexport/dist/img/txt.svg) |
 
 ### Dependencies
 
 #### Required:
 
-* [FileSaver.js](https://github.com/clarketm/FileSaver.js/)
+- [FileSaver.js](https://github.com/clarketm/FileSaver.js/)
 
 #### Optional:
 
-* [jQuery](https://jquery.com) (1.2.1 or higher)
-* [Bootstrap](http://getbootstrap.com/getting-started/#download) (3.1.0 or higher)
+- [jQuery](https://jquery.com) (1.2.1 or higher)
+- [Bootstrap](http://getbootstrap.com/getting-started/#download) (3.1.0 or higher)
 
 #### Add-Ons:
+
 In order to provide **Office Open XML SpreadsheetML Format ( `.xlsx` )** support, you must include the following third-party library in your project before both [FileSaver.js](https://github.com/clarketm/FileSaver.js/) and [TableExport](https://tableexport.travismclarke.com).
 
-* [xlsx.core.js](https://github.com/SheetJS/js-xlsx) by _SheetJS_
+- [xlsx.core.js](https://github.com/SheetJS/js-xlsx) by _SheetJS_
 
 > Including `xlsx.core.js` is **NOT** necessary if installing with [`Bower`](#install-with-bower) or [`npm`](#install-with-npm)
 
 ```html
 <script src="xlsx.core.js"></script>
 <script src="FileSaver.js"></script>
- ...
+...
 <script src="tableexport.js"></script>
 ```
 
 #### Older Browsers:
-To support legacy browsers ( **Chrome** < 20, **Firefox** < 13, **Opera** < 12.10, **IE** < 10, __Safari__ < 6 ) include the [Blob.js](https://github.com/clarketm/Blob.js/) polyfill before the [FileSaver.js](https://github.com/clarketm/FileSaver.js/) script.
 
-* [Blob.js](https://github.com/clarketm/Blob.js) by _eligrey_ (forked by  _clarketm_)
- 
- > Including `Blob.js` is **NOT** necessary if installing with [`Bower`](#install-with-bower) or [`npm`](#install-with-npm)
+To support legacy browsers ( **Chrome** < 20, **Firefox** < 13, **Opera** < 12.10, **IE** < 10, **Safari** < 6 ) include the [Blob.js](https://github.com/clarketm/Blob.js/) polyfill before the [FileSaver.js](https://github.com/clarketm/FileSaver.js/) script.
+
+- [Blob.js](https://github.com/clarketm/Blob.js) by _eligrey_ (forked by _clarketm_)
+
+> Including `Blob.js` is **NOT** necessary if installing with [`Bower`](#install-with-bower) or [`npm`](#install-with-npm)
 
 ```html
 <script src="Blob.js"></script>
 <script src="FileSaver.js"></script>
- ...
+...
 <script src="tableexport.js"></script>
 ```
 
@@ -111,42 +123,43 @@ TableExport(document.getElementsByTagName("table"));
 
 // OR using jQuery
 
-$("table").tableExport();    
+$("table").tableExport();
 ```
 
 Additional properties can be passed-in to customize the look and feel of your tables, buttons, and exported data.
 
-Notice that by default, TableExport will create export buttons for three different filetypes *`xls`, `csv`, `txt`*. You can choose which buttons to generate by setting the `formats` property to the filetype(s) of your choice.
+Notice that by default, TableExport will create export buttons for three different filetypes _`xls`, `csv`, `txt`_. You can choose which buttons to generate by setting the `formats` property to the filetype(s) of your choice.
 
 ```js
 /* Defaults */
 TableExport(document.getElementsByTagName("table"), {
-    headers: true,                              // (Boolean), display table headers (th or td elements) in the <thead>, (default: true)
-    footers: true,                              // (Boolean), display table footers (th or td elements) in the <tfoot>, (default: false)
-    formats: ['xls', 'csv', 'txt'],             // (String[]), filetype(s) for the export, (default: ['xls', 'csv', 'txt'])
-    filename: 'id',                             // (id, String), filename for the downloaded file, (default: 'id')
-    bootstrap: false,                           // (Boolean), style buttons using bootstrap, (default: true)
-    exportButtons: true,                        // (Boolean), automatically generate the built-in export buttons for each of the specified formats (default: true)
-    position: 'bottom',                         // (top, bottom), position of the caption element relative to table, (default: 'bottom')
-    ignoreRows: null,                           // (Number, Number[]), row indices to exclude from the exported file(s) (default: null)
-    ignoreCols: null,                           // (Number, Number[]), column indices to exclude from the exported file(s) (default: null)
-    trimWhitespace: true                        // (Boolean), remove all leading/trailing newlines, spaces, and tabs from cell text in the exported file(s) (default: false)
+  headers: true, // (Boolean), display table headers (th or td elements) in the <thead>, (default: true)
+  footers: true, // (Boolean), display table footers (th or td elements) in the <tfoot>, (default: false)
+  formats: ["xls", "csv", "txt"], // (String[]), filetype(s) for the export, (default: ['xls', 'csv', 'txt'])
+  filename: "id", // (id, String), filename for the downloaded file, (default: 'id')
+  bootstrap: false, // (Boolean), style buttons using bootstrap, (default: true)
+  exportButtons: true, // (Boolean), automatically generate the built-in export buttons for each of the specified formats (default: true)
+  position: "bottom", // (top, bottom), position of the caption element relative to table, (default: 'bottom')
+  ignoreRows: null, // (Number, Number[]), row indices to exclude from the exported file(s) (default: null)
+  ignoreCols: null, // (Number, Number[]), column indices to exclude from the exported file(s) (default: null)
+  trimWhitespace: true // (Boolean), remove all leading/trailing newlines, spaces, and tabs from cell text in the exported file(s) (default: false)
 });
 ```
-> **Note:**  to use the `xlsx` filetype, you must include [js-xlsx](https://github.com/SheetJS/js-xlsx/blob/master/dist/xlsx.core.min.js); reference the [`Add-Ons`](#add-ons) section.
+
+> **Note:** to use the `xlsx` filetype, you must include [js-xlsx](https://github.com/SheetJS/js-xlsx/blob/master/dist/xlsx.core.min.js); reference the [`Add-Ons`](#add-ons) section.
 
 ### Properties
 
-* [`headers`](https://tableexport.v3.travismclarke.com/examples/headers_footers.html)
-* [`footers`](https://tableexport.v3.travismclarke.com/examples/headers_footers.html)
-* [`formats`](https://tableexport.v3.travismclarke.com/examples/formats-xlsx-xls-csv-txt.html)
-* [`filename`](https://tableexport.v3.travismclarke.com/examples/filename.html)
-* [`bootstrap`](https://tableexport.v3.travismclarke.com/examples/bootstrap.html)
-* [`exportButtons`](https://tableexport.v3.travismclarke.com/examples/exportButtons.html)
-* [`position`](https://tableexport.v3.travismclarke.com/examples/position.html)
-* [`ignoreRows`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
-* [`ignoreCols`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
-* [`trimWhitespace`](https://tableexport.v3.travismclarke.com/examples/whitespace.html)
+- [`headers`](https://tableexport.v3.travismclarke.com/examples/headers_footers.html)
+- [`footers`](https://tableexport.v3.travismclarke.com/examples/headers_footers.html)
+- [`formats`](https://tableexport.v3.travismclarke.com/examples/formats-xlsx-xls-csv-txt.html)
+- [`filename`](https://tableexport.v3.travismclarke.com/examples/filename.html)
+- [`bootstrap`](https://tableexport.v3.travismclarke.com/examples/bootstrap.html)
+- [`exportButtons`](https://tableexport.v3.travismclarke.com/examples/exportButtons.html)
+- [`position`](https://tableexport.v3.travismclarke.com/examples/position.html)
+- [`ignoreRows`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
+- [`ignoreCols`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
+- [`trimWhitespace`](https://tableexport.v3.travismclarke.com/examples/whitespace.html)
 
 ### Methods
 
@@ -158,9 +171,10 @@ var table = TableExport(document.getElementById("export-buttons-table"));
 ```
 
 #### [`getExportData`](https://tableexport.v3.travismclarke.com/examples/exportButtons.html)
+
 ```js
 /* get export data */
-var exportData = table.getExportData();     // useful for creating custom export buttons, i.e. when (exportButtons: false)
+var exportData = table.getExportData(); // useful for creating custom export buttons, i.e. when (exportButtons: false)
 
 /*****************
  ** exportData ***
@@ -180,46 +194,52 @@ var exportData = table.getExportData();     // useful for creating custom export
 ```
 
 #### [`update`](https://tableexport.v3.travismclarke.com/examples/update_reset_remove.html)
+
 ```js
 /* update */
 table.update({
-    filename: "newFile"     // pass in a new set of properties
+  filename: "newFile" // pass in a new set of properties
 });
 ```
 
 #### [`reset`](https://tableexport.v3.travismclarke.com/examples/update_reset_remove.html)
+
 ```js
 /* reset */
-table.reset();             // useful for a dynamically altered table
+table.reset(); // useful for a dynamically altered table
 ```
 
 #### [`remove`](https://tableexport.v3.travismclarke.com/examples/update_reset_remove.html)
+
 ```js
 /* remove */
-table.remove();            // removes caption and buttons
+table.remove(); // removes caption and buttons
 ```
 
 ### Settings
+
 Below are some of the popular configurable settings to customize the functionality of the library.
 
 #### [`ignoreCSS`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
+
 ```js
 /* class selector to exclude/remove cells (<td> or <th>) or rows (<tr>) from the exported file(s). */
 TableExport.prototype.ignoreCSS = "tableexport-ignore";
 
 // OR using jQuery
 
-$.fn.tableExport.ignoreCSS = "tableexport-ignore" ;
+$.fn.tableExport.ignoreCSS = "tableexport-ignore";
 ```
 
 #### [`emptyCSS`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
+
 ```js
 /* class selector to replace cells (<td> or <th>) with an empty string (i.e. "blank cell") in the exported file(s). */
 TableExport.prototype.emptyCSS = "tableexport-empty";
 
 // OR using jQuery
 
-$.fn.tableExport.emptyCSS = "tableexport-empty" ;
+$.fn.tableExport.emptyCSS = "tableexport-empty";
 ```
 
 ```js
@@ -244,47 +264,47 @@ TableExport.prototype.rowDel = "\r\n";
 
 /* Excel Open XML spreadsheet (.xlsx) */
 TableExport.prototype.xlsx = {
-    defaultClass: "xlsx",
-    buttonContent: "Export to xlsx",
-    mimeType: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-    fileExtension: ".xlsx"
+  defaultClass: "xlsx",
+  buttonContent: "Export to xlsx",
+  mimeType: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  fileExtension: ".xlsx"
 };
 
 /* Excel Binary spreadsheet (.xls) */
 TableExport.prototype.xls = {
-    defaultClass: "xls",
-    buttonContent: "Export to xls",
-    separator: "\t",
-    mimeType: "application/vnd.ms-excel",
-    fileExtension: ".xls"
+  defaultClass: "xls",
+  buttonContent: "Export to xls",
+  separator: "\t",
+  mimeType: "application/vnd.ms-excel",
+  fileExtension: ".xls"
 };
 
 /* Comma Separated Values (.csv) */
 TableExport.prototype.csv = {
-    defaultClass: "csv",
-    buttonContent: "Export to csv",
-    separator: ",",
-    mimeType: "application/csv",
-    fileExtension: ".csv"
+  defaultClass: "csv",
+  buttonContent: "Export to csv",
+  separator: ",",
+  mimeType: "application/csv",
+  fileExtension: ".csv"
 };
 
 /* Plain Text (.txt) */
 TableExport.prototype.txt = {
-    defaultClass: "txt",
-    buttonContent: "Export to txt",
-    separator: "  ",
-    mimeType: "text/plain",
-    fileExtension: ".txt"
+  defaultClass: "txt",
+  buttonContent: "Export to txt",
+  separator: "  ",
+  mimeType: "text/plain",
+  fileExtension: ".txt"
 };
 ```
 
 ### CSS
 
-[TableExport](https://tableexport.travismclarke.com) packages with customized [Bootstrap](http://getbootstrap.com/getting-started/#download) CSS stylesheets to deliver enhanced table and button styling. These styles can be *enabled* by initializing with the `bootstrap` property set to `true`.
+[TableExport](https://tableexport.travismclarke.com) packages with customized [Bootstrap](http://getbootstrap.com/getting-started/#download) CSS stylesheets to deliver enhanced table and button styling. These styles can be _enabled_ by initializing with the `bootstrap` property set to `true`.
 
 ```js
 TableExport(document.getElementsByTagName("table"), {
-    bootstrap: true
+  bootstrap: true
 });
 ```
 
@@ -292,53 +312,60 @@ When used alongside Bootstrap, there are four custom classes **`.xlsx`, `.xls`, 
 
 ### Browser Support
 
-|  | Chrome | Firefox | IE  | Opera | Safari |
-| :------: | :------: | :-------: | :---: | :-----: | :------: |
-| __Android__ |    &#10003;   |    &#10003;    | - |   &#10003;   |  -   |
-| __iOS__ |    &#10003;   |  -    | - |   -   |   &#10003;    |
-| **Mac OSX**|    &#10003;   |    &#10003;    | - |   &#10003;  |   &#10003;    |
-| **Windows** |    &#10003;   |    &#10003;    | &#10003; |   &#10003;   |   &#10003;    |
+|             |  Chrome  | Firefox  |    IE    |  Opera   |  Safari  |
+| :---------: | :------: | :------: | :------: | :------: | :------: |
+| **Android** | &#10003; | &#10003; |    -     | &#10003; |    -     |
+|   **iOS**   | &#10003; |    -     |    -     |    -     | &#10003; |
+| **Mac OSX** | &#10003; | &#10003; |    -     | &#10003; | &#10003; |
+| **Windows** | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
 
 > A full list of [browser support](https://github.com/clarketm/FileSaver.js#supported-browsers) can be found in the [FileSaver.js](https://github.com/clarketm/FileSaver.js) README. Some [legacy browsers](https://github.com/clarketm/FileSaver.js#supported-browsers) may require an additional third-party dependency: [Blob.js](https://github.com/clarketm/Blob.js/)
 
 ### Examples
 
 #### Customizing Properties
-* [`headers`](https://tableexport.v3.travismclarke.com/examples/headers_footers.html)
-* [`footers`](https://tableexport.v3.travismclarke.com/examples/headers_footers.html)
-* [`formats`](https://tableexport.v3.travismclarke.com/examples/formats-xlsx-xls-csv-txt.html)
-* [`filename`](https://tableexport.v3.travismclarke.com/examples/filename.html)
-* [`bootstrap`](https://tableexport.v3.travismclarke.com/examples/bootstrap.html)
-* [`exportButtons`](https://tableexport.v3.travismclarke.com/examples/exportButtons.html)
-* [`position`](https://tableexport.v3.travismclarke.com/examples/position.html)
-* [`ignoreRows`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
-* [`ignoreCols`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
-* [`trimWhitespace`](https://tableexport.v3.travismclarke.com/examples/whitespace.html)
+
+- [`headers`](https://tableexport.v3.travismclarke.com/examples/headers_footers.html)
+- [`footers`](https://tableexport.v3.travismclarke.com/examples/headers_footers.html)
+- [`formats`](https://tableexport.v3.travismclarke.com/examples/formats-xlsx-xls-csv-txt.html)
+- [`filename`](https://tableexport.v3.travismclarke.com/examples/filename.html)
+- [`bootstrap`](https://tableexport.v3.travismclarke.com/examples/bootstrap.html)
+- [`exportButtons`](https://tableexport.v3.travismclarke.com/examples/exportButtons.html)
+- [`position`](https://tableexport.v3.travismclarke.com/examples/position.html)
+- [`ignoreRows`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
+- [`ignoreCols`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
+- [`trimWhitespace`](https://tableexport.v3.travismclarke.com/examples/whitespace.html)
 
 #### Customizing Settings
-* [`ignoreCSS`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
-* [`emptyCSS`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
+
+- [`ignoreCSS`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
+- [`emptyCSS`](https://tableexport.v3.travismclarke.com/examples/ignore-row-cols-cells.html)
 
 #### Miscellaneous
-* [`cell data types`](https://tableexport.v3.travismclarke.com/examples/cell-data-types.html) (`string`, `number`, `boolean`, `date`)
-* [`emoji`](https://tableexport.v3.travismclarke.com/examples/unicode-emoji.html)
-* [`Arabic`](https://tableexport.v3.travismclarke.com/examples/arabic-language.html)
 
-#### Skeletons 
-* [TableExport + RequireJS](https://github.com/clarketm/tableexport_requirejs_app) skeleton.
-* [TableExport + Flask](https://github.com/clarketm/tableexport_flask_app) skeleton.
-* [TableExport + Webpack 1](https://github.com/clarketm/tableexport_webpack-v1_app) skeleton.
-* [TableExport + Angular 4 + Webpack 2](https://github.com/clarketm/tableexport_angular4_webpack2_app) skeleton.
+- [`cell data types`](https://tableexport.v3.travismclarke.com/examples/cell-data-types.html) (`string`, `number`, `boolean`, `date`)
+- [`emoji`](https://tableexport.v3.travismclarke.com/examples/unicode-emoji.html)
+- [`Arabic`](https://tableexport.v3.travismclarke.com/examples/arabic-language.html)
+
+#### Skeletons
+
+- [TableExport + RequireJS](https://github.com/clarketm/tableexport_requirejs_app) skeleton.
+- [TableExport + Flask](https://github.com/clarketm/tableexport_flask_app) skeleton.
+- [TableExport + Webpack 1](https://github.com/clarketm/tableexport_webpack-v1_app) skeleton.
+- [TableExport + Angular 4 + Webpack 2](https://github.com/clarketm/tableexport_angular4_webpack2_app) skeleton.
 
 ### License
+
 [TableExport](https://tableexport.travismclarke.com) is licensed under the terms of the [Apache-2.0](http://www.apache.org/licenses/LICENSE-2.0.html) License
 
 ### Going Forward
+
 #### TODOs
+
 - [x] Update JSDocs and TypScript definition file.
-- [x] Fix bug with **CSV** and **TXT** `ignoreRows` and `ignoreCols` (rows/cols rendered as empty strings rather than being *removed*).
+- [x] Fix bug with **CSV** and **TXT** `ignoreRows` and `ignoreCols` (rows/cols rendered as empty strings rather than being _removed_).
 - [x] Reimplement and test the `update`, `reset`, and `remove` **TableExport** prototype properties without requiring jQuery.
-- [x] Make jQuery as *peer dependency* and ensure proper **TableExport** rendering in browser, AMD, and CommonJS environments.
+- [x] Make jQuery as _peer dependency_ and ensure proper **TableExport** rendering in browser, AMD, and CommonJS environments.
 - [x] Force jQuery to be an optionally loaded module.
 - [x] Use the enhanced [SheetJS](https://github.com/SheetJS/js-xlsx#supported-output-formats) `xls`, `csv`, and `txt` formats (exposed via `enforceStrictRFC4180` prototype property).
 - [x] Allow `ignoreCSS` and `emptyCSS` to work with any `selector|selector[]` instead of solely a single CSS class.
@@ -346,6 +373,8 @@ When used alongside Bootstrap, there are four custom classes **`.xlsx`, `.xls`, 
 - [ ] Add **Export as PDF** support.
 
 ### Credits
-Special thanks the the following contributors: 
-* [SheetJS](https://github.com/SheetJS) - js-xlsx 
-* [Eli Grey](https://github.com/eligrey) - FileSaver.js & Blob.js
+
+Special thanks the the following contributors:
+
+- [SheetJS](https://github.com/SheetJS) - js-xlsx
+- [Eli Grey](https://github.com/eligrey) - FileSaver.js & Blob.js
